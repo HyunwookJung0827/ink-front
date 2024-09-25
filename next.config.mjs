@@ -1,4 +1,21 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    images: {
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'fal.media',
+          port: '',
+          pathname: '/files/koala/**',
+        },
+        {
+          protocol: 'https',
+          hostname: 'oaidalleapiprodscus.blob.core.windows.net',
+          port: '',
+          pathname: '/**',
+        },
+      ],
+    },
+  };
+  
+  export default nextConfig;

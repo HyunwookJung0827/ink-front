@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fal-ai/serverless-client": "^0.14.3",
     "@typebot.io/js": "^0.3.14",
     "@typebot.io/nextjs": "^0.3.14",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
     "next": "14.2.12",
+    "openai": "^4.63.0",
     "react": "^18",
     "react-dom": "^18"
   },
